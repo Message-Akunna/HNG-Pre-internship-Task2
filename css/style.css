@@ -1,0 +1,104 @@
+html{
+	background-color: rgb(250, 250, 250);
+}
+
+body{
+	width: 804px;
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+	margin: auto;
+	padding: 50px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 3px 6px rgba(100, 100, 100, 0.16), 0 3px 6px rgba(100, 100, 100, 0.23);
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 4px solid #00ab44;
+}
+
+.text-default{
+	color: #353744;
+}
+
+.text-primary{
+	color: #00ab44;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*	Header	
+-----------------*/
+img{
+	width: 200px;
+	height: auto;
+	border-radius: 50%
+}
+
+h1{
+	font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+}
+
+h2{
+	font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 5px;
+}
+
+address{
+	font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+	color: #00ab44;
+	text-decoration: none;
+	transition: 0.35s;
+}
+
+a:hover{
+	color: #353744;
+}
+
+hr{
+	border: 1px solid #00ab44;
+}
+
+/*Section
+-----------------*/
+
+section{
+	margin-bottom: 20px;
+}
+
+section > h3{
+	font-size: 18px;
+    font-weight: 700;
+    color: #555555;
+}
+
+section h4{
+	margin-bottom: 10px;
+	margin-bottom: 10px;
+	color: #555555;
+}
+
+section ul{
+	border-left: 1px solid #00ab44;
+	margin-left: 20px;
+}
+
+section ul li{
+	font-size: 14.666666px;
+    color: #353744;
+    font-weight: 400;
+}
+
+
+/* Reference Section
+-----------------------*/
