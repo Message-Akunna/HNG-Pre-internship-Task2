@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Message Akunna's Resume">
+        <meta name="author" content="Message Akunna">
 		<title>Akunna Message Resume</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body>
-		<header>
-			<img src="https://res.cloudinary.com/message/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1566597822/RAW_10_dbqiou.jpg" width="200" height="auto">
-			<h1>Akunna Message O.</h1>
-			<h2>Web Developer</h2>
-				<address>
-					Abacha Road Nyanya.<br>
-					Abuja Nigeria.<br>
-					<a href="tel:+234 9033226681">+234 9033226681</a><br>
-					<a href="mailto:message.ao@gmail.com">message.ao@gmail.com</a>
-				</address>			
+	<body class="">
+		<header class="text-center">
+			<img src="https://res.cloudinary.com/message/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1566597822/RAW_10_dbqiou.jpg">
+			<h1 class="text-default">Akunna Message O.</h1>
+			<h2 class="text-primary">Web Developer</h2>
+			<address class="text-default">
+				Abacha Road Nyanya, Abuja Nigeria.<br>
+				<a href="tel:+234 9033226681">+234 9033226681</a><br>
+				<a href="mailto:message.ao@gmail.com">message.ao@gmail.com</a>
+			</address>			
 		</header>
 		<hr width="100%" size="4" noshade>
 		<section>
 			<div>
-				<h3>SKILLS</h3>
+				<h3 class="text-primary">SKILLS</h3>
 				<ul>
 					<li><b>Communication:</b> Ability to communicate ideas and solutions to problems.
 	    			<li><b>Team Player:</b> Ability to work with a group of people as a member, thereby contributing positively to group progress.</li>
@@ -29,37 +33,31 @@
 			
 		</section>
 		<section>
-			<h3>EXPERIENCE</h3>
+			<h3 class="text-primary">EXPERIENCE</h3>
 			<div class="">	
 				<h4>Divine Grace Schools and Colleges, Oyo State<em>- Science Teacher</em><br/>
 					<small>SEPTEMBER 2018 - JULY 2019</small>
 				</h4>
-				<p>
-					<ul>
-						<li>Taught  science subjects like computer studies and mathematics.</li>
-					</ul>
-				</p>
+				<ul>
+					<li>Taught  science subjects like computer studies and mathematics.</li>
+				</ul>
 			</div>
 			<div class="">	
 				<h4>Touchabl Pictures,  Porthacourt<em>- Web Developer</em><br/>
 					<small>APRIL 2018 - AUGUST 2018</small>
 				</h4>
-				<p>
-					<ul>
-						<li>Worked with a team of developers on an AI-based software for detecting items(mainly fashion items) in pictures, which allows the users to purchase items from vendors on the platform. </li>
-						<li>Used the ReactJs language to design the web front end of the app, I also used Rest APIs to interact with the backend of the software.</li>
-					</ul>
-				</p>
+				<ul>
+					<li>Worked with a team of developers on an AI-based software for detecting items(mainly fashion items) in pictures, which allows the users to purchase items from vendors on the platform. </li>
+					<li>Used the ReactJs language to design the web front end of the app, I also used Rest APIs to interact with the backend of the software.</li>
+				</ul>
 			</div>
 			<div class="">	
 				<h4>Yellow Code Systems, Porthacourt<em>- Junior Web Developer.</em><br/>
 					<small>SEPTEMBER 2017 - MARCH 2018</small>
 				</h4>
-				<p>
-					<ul>
-						<li>Worked on various projects like school management software, freelance web application, and various company's portfolio websites using languages and tools like PHP, HTML, CSS, JavaScript, jQuery, and bootstrap.</li>
-					</ul>
-				</p>
+				<ul>
+					<li>Worked on various projects like school management software, freelance web application, and various company's portfolio websites using languages and tools like PHP, HTML, CSS, JavaScript, jQuery, and bootstrap.</li>
+				</ul>
 			</div>
 			<div class="">	
 				<h4>Research Window Software Academy, Porthacourt<em>- Intern</em><br/>
@@ -70,15 +68,13 @@
 				<h4>Perfect Gift Academy, Nasarawa State -<em>Science Teacher</em><br/>
 					<small>SEPTEMBER 2014 - OCTOBER 2014</small>
 				</h4>
-				<p>
-					<ul>
-						<li>Taught  science subjects like maths, basic tech and sciences, PHE and agricultural sciences.</li>
-					</ul>
-				</p>
+				<ul>
+					<li>Taught  science subjects like maths, basic tech and sciences, PHE and agricultural sciences.</li>
+				</ul>
 			</div>
 		</section>
 		<section>
-			<h3>EDUCATION</h3>
+			<h3 class="text-primary">EDUCATION</h3>
 			<div class="">	
 				<h4>River State University, River State Nigeria<em>- BSc. Computer Science</em>
 					<small>SEPT 2013 - JULY 2017</small>
@@ -97,17 +93,44 @@
 				<p>Graduated as the best students with a diploma in Data processing.</p>
 			</div>
 		</section>
+
 		<section>
-			<h3>AWARDS</h3>
+			<h3 class="text-primary">AWARDS</h3>
 			<div class="">
 				<h4>Best Academic Award:<em> JB Success Computer School 2013.</em></h4>
 			</div>
 		</section>
+
 		<section>
-			<h3>REFERENCE</h3>
+			<h3 class="text-primary">REFERENCE</h3>
 			<div class="">
-				<h4>Gabriel Eze - Touchabl Pictures</h4>
-				<p>Ui/Ux Lead/ CEO<br>
+				<h4>Available on Request</h4>
+			</div>
+		</section>
+		<section>
+			<h3 class="text-primary">GET IN TOUCH WITH ME</h3>
+			<div class="container">
+				<form action="" id="validateForm" name="myForm">
+					<p class="error-message" id="errorMessage">There is an error</p>
+					<label for="name">Name</label>
+					<input class="form-control" type="text" name="name" id="name" placeholder="Your name..">
+
+					<label for="email">Email</label>
+					<input class="form-control" type="email" name="email" id="email" placeholder="Your email please">
+
+					<label for="title">Title</label>
+					<input class="form-control" type="text" name="title" id="title" placeholder="Your message title.">
+
+					<label for="subject">Subject</label>
+					<textarea class="form-control" name="subject" id="subject" placeholder="Write something.." style="height:200px">
+					</textarea>
+					<input type="submit" value="Submit" name="submit" disabled="true">
+				</form>
+			</div>
+		</section>
+
+		<!-- 
+		<p>Ui/Ux Lead/ CEO<br>
 					<a href="mailto:gabrieleze@touchabl.com">gabrieleze@touchabl.com</a><br>
 					<a href="tel:+2348097737457">+2348097737457</a>
 				</p>
@@ -118,7 +141,7 @@
 					<a href="mailto:vestaldee.deedam@gmail.com">vestaldee.deedam@gmail.com</a><br>
 					<a href="tel:+2348097737457">+2348181023571</a>
 				</p>
-			</div>
-		</section>
+		 -->
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
