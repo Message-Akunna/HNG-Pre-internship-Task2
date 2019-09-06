@@ -3,7 +3,7 @@ html{
 }
 
 body{
-	width: 804px;
+	max-width: 804px;
 	margin-top: 50px !important;
 	margin-bottom: 50px !important;
 	margin: auto;
@@ -82,8 +82,7 @@ section > h3{
     color: #555555;
 }
 
-section h4{
-	margin-bottom: 10px;
+section div h4{
 	margin-bottom: 10px;
 	color: #555555;
 }
@@ -102,3 +101,62 @@ section ul li{
 
 /* Reference Section
 -----------------------*/
+
+/*Form design
+-------------------------*/
+/*error message*/
+.error-message{
+	background-color: rgba(250, 30, 30, 0.1);
+	padding: 10px;
+	color: #dd5555;
+	border: 1px solid #dd5555;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], textarea {
+  width: 100%; 
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 1px solid rgb(255, 255, 255); 
+  border-radius: 0px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  transition: 0.35s;
+}
+
+.form-control:hover, .form-control:focus{
+	box-shadow: none;
+	border: 1px solid rgba(200, 200, 200, 0.54);
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[disabled], input[disabled]:hover{
+	background-color: rgba(125, 125, 125, 0.5);
+	cursor: not-allowed;
+}
+
+input.error{
+	border: 1px solid red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+}
